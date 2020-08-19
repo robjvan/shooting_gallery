@@ -11,8 +11,7 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 
 ## Software
 
-<!-- [Ino file](https://github.com/robjvan/rc_car/blob/master/rc_car_ino/rc_car_ino.ino)   -->
-<!-- [Android App](#) -->
+[Ino file](https://github.com/robjvan/shooting_gallery/blob/master/shooting_gallery_ino/shooting_gallery_ino.ino)
 
 ---
 
