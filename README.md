@@ -9,6 +9,8 @@
 
 Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitter to hit various targets, at the end of each round the player with the most points wins.   Contact switches are used for firing and to simulate reloading.  Players have a limited amount of shots in each round, remaining ammo in shown on a single-digit display on the gun.  Guns will communicate with the target "base station" via bluetooth for player turns and remaining shots.
 
+---
+
 ## Software
 
 [Ino file](https://github.com/robjvan/shooting_gallery/blob/master/shooting_gallery_ino/shooting_gallery_ino.ino)
@@ -64,6 +66,10 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 ## Versions
 
 ### v0.1 - First Prototype
+
+
+This version ... *WIP*
+ 
 <p align="center">
  <img src="/images/image_placeholder.png" height=414 width=450>
 </p>
@@ -82,4 +88,3 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 <p align="center">
   <i>"Gun" Frizing Diagram</i>
 </p>
- This version ... *WIP*
