@@ -1,7 +1,8 @@
-/* Laser Shooting Gallery Target Module
+/* Laser Shooting Gallery Base Station
+ * Handles operation of the target "base station"
  * 
- * created by Rob Vandelinder
- * aug 18, 2020
+ * created 18 Aug 2020
+ * by Rob Vandelinder
  * rob@eastcoastdev.ca
  */
 
