@@ -88,13 +88,13 @@ This was the minimum viable product version.  A simple laser pointer is used to 
   <i>Close-up of the target base</i>
 </p>
 <p align="center">
- <img src="/images/image_placeholder.png" height=414 >
+ <img src="/images/target_base_prototype_fritzing.png" height=414 >
 </p>
 <p align="center">
   <i>Target Frizing Diagram</i>
 </p>
 <p align="center">
- <img src="/images/image_placeholder.png" height=414 >
+ <img src="/images/gun_prototype_fritzing.png" height=414 >
 </p>
 <p align="center">
   <i>"Gun" Frizing Diagram</i>
