@@ -7,7 +7,7 @@
 
 ## Description
 
-Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitter to hit various targets, at the end of each round the player with the most points wins.   Contact switches are used for firing and to simulate reloading.  Players have a limited amount of shots in each round, remaining ammo in shown on a single-digit display on the gun.  Guns will communicate with the target "base station" via bluetooth for player turns and remaining shots.
+Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitter to hit various targets, at the end of each round the player with the most points wins.   Contact switches are used for firing and to simulate reloading.  Players have a limited amount of shots in each round, remaining shots are shown on a single-digit display.  
 
 ---
 
@@ -34,13 +34,13 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 
 *Target module*
 - Arduino Mega2560
-- HM-05 BLE module
 - 5 x SG90 servo motor
 - 5 x red LED
 - 13 x 220 ohm resistor (red/white LEDs)
 - 5 x photocell
 - 5 x 10k ohm resistor (photocells)
 - 2 x 4-digit 7-segment display (scores/winner)
+- 1 x one-digit 7-segment display (ammo)
 - 8 x white LED
 - Toggle switch for power
 - Momentary pushbutton for reset
@@ -49,11 +49,10 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 
 *Each Gun*
 - Nano v3
-- HM-05 BLE module
 - 9v alkaline battery (or 18650)
+- Slide switch for power
 - KY-008 laser diode
 - 2 x momentary pushbutton (trigger/pump-action reloading)
-- 1 x one-digit 7-segment display (ammo)
 
 ---
 
