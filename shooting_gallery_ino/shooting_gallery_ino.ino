@@ -24,7 +24,6 @@ void setup() {
 }
 
 void loop() {
-
   lightLevel = map(analogRead(sensorPin),0,1023,0,100);
   if (lightLevel > 80) {
     servo.write(170);
@@ -39,6 +38,7 @@ void blinkLED(int numTimes) {
     digitalWrite(ledPin, HIGH);
     delay(100);
     digitalWrite(ledPin, LOW);
+    delay(100);
   }
 }
 
