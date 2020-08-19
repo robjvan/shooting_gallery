@@ -65,19 +65,19 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 
 ### v0.1 - First Prototype
 <p align="center">
- <img src="/images/image_placeholder.jpg" height=414 width=450>
+ <img src="/images/image_placeholder.png" height=414 width=450>
 </p>
 <p align="center">
   <i>*Caption placeholder*</i>
 </p>
 <p align="center">
- <img src="/images/image_placeholder.jpg" height=414 width=450>
+ <img src="/images/image_placeholder.png" height=414 width=450>
 </p>
 <p align="center">
   <i>*Target Frizing Diagram*</i>
 </p>
 <p align="center">
- <img src="/images/image_placeholder.jpg" height=414 width=450>
+ <img src="/images/image_placeholder.png" height=414 width=450>
 </p>
 <p align="center">
   <i>*"Gun" Frizing Diagram*</i>
