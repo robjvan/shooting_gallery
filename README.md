@@ -70,7 +70,7 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 This was the minimum viable product version.  A simple laser pointer is used to trigger the photocell, which uses a servo to drop the target when a hit is registered.
  
 <p align="center">
- <img src="/images/prototype_test_720p.m4v" height=414 >
+ <img src="/images/prototype_test.gif" height=414 >
 </p>
 <p align="center">
   <i>It works!</i>
