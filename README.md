@@ -3,83 +3,75 @@
     <img src="/images/arduino.png" width=200>
 </p>
 
-# Arduino RC Car 
+# Shooting Gallery 
 
 ## Description
 
-- Arduino-powered, bluetooth-controlled toy car
-- Working headlights and brake lights
-- Horn with variable frequencies, can play melodies
+Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitter to hit various targets, at the end of each round the player with the most points wins.   Contact switches are used for firing and to simulate reloading.  Players have a limited amount of shots in each round, remaining ammo in shown on a single-digit display on the gun.  Guns will communicate with the target "base station" via bluetooth for player turns and remaining shots.
 
 ## Software
 
-[Ino file](https://github.com/robjvan/rc_car/blob/master/rc_car_ino/rc_car_ino.ino)  
-[Android App](#)
+<!-- [Ino file](https://github.com/robjvan/rc_car/blob/master/rc_car_ino/rc_car_ino.ino)   -->
+<!-- [Android App](#) -->
 
 ---
 
 ## Diagrams
 
 <p align="center">
-    <img src="/images/fritzing_prototype.png" width=1024>
+    <img src="/images/image_placeholder.png" width=1024>
 </p>
 <p align="center">
-    <i>Prototype v1 with wired "controller"</i>
-</p>
-<p align="center">
-    <img src="/images/fritzing_bt_nano.png" width=1024>
-</p>
-<p align="center">
-    <i>Prototype with Nano & BT</i>
+    <i>Prototype v1 with "gun"</i>
 </p>
 
-## Hardware Used
+## Hardware Used For Prototype
 
 - Arduino Uno R3
-- L293D DC motor driver
 - SG90 servo motor
-- BLDC motor
-- 9v NiMh battery for Arduino
-- 7.4v 6000 mAh 2S2P Li-Ion battery pack for drive motors
-- Passive buzzer
-- 4 x LEDs (2 x red, 2 x white)
-- 4 x 220 ohm resistors
-- BT-enabled controller
-- Android phone
+- 9v alkaline battery
+- KY-008 laser diode
+- 1 x red LED
+- 1 x 220 ohm resistor
+- 1 x photocell
+- 1 x 10k ohm resistor
+- 5V USB charger
 
+
+## Hardware Planned For Final Version
+
+*Target module*
+- Arduino Mega2560
+- HM-05 BLE module
+- 5 x SG90 servo motor
+- 5 x red LED
+- 13 x 220 ohm resistor (red/white LEDs)
+- 5 x photocell
+- 5 x 10k ohm resistor (photocells)
+- 2 x 4-digit 7-segment display (scores/winner)
+- 8 x white LED
+- Toggle switch for power
+- Momentary pushbutton for reset
+- Breadboard power supply (for servos)
+- 5V dual-output USB charger
+
+*Each Gun*
+- Nano v3
+- HM-05 BLE module
+- 9v alkaline battery (or 18650)
+- KY-008 laser diode
+- 2 x momentary pushbutton (trigger/pump-action reloading)
+- 1 x one-digit 7-segment display (ammo)
 
 ---
 
 ## To-Do List
 
-- Swap to Nano 33 IoT for onboard BT
-- Swap to L298N DC motor driver
-- Servo-powered steering rack for front wheels
-- Plastic crown gears attaching motor to rear axle
-- Hide the electronics inside a plastic model car (Revell/Monogram-style kit)
-- Flutter app for Android/iOS devices
-- Cameras for video feed in mobile control app
-- More powerful motor
-- Bigger battery pack
-- Custom chassis with suspension
-- RC braking system
-- *GPS tracking?*
-- *OpenCV/Obstacle avoidance?*
+- *WIP*
 
 
 ---
 
 ## Versions
 
-### v0.1 COMPLETED - "First Prototype"
-<p align="center">
- <img src="/images/prototype_v1.jpg" height=414 width=450>
-</p>
-<p align="center">
-  <i>It wasn't the prettiest</i>
-</p>
- This version requires a makeshift "controller" to test the various circuits.  The controller consists of 2 x PS2 joysticks to control throttle and steering with pushbuttons to sound the horn and toggle the headlights.  The objective was to confirm feasibility and create basic code to have all parts interact properly.
-
-### v0.2 WIP - "Cutting the cords"
-
- Planned for Sept/Oct 2020, waiting for parts from China.  A bluetooth receiver will enable wireless operation and plastic gears will allow the motor to turn a drive axle.  
+*n/a*
