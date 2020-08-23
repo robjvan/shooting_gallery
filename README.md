@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="/images/arduino.png" width=200>
+    <img src="/images/arduino.png" width=200 style="max-width:50%">
 </p>
 
 # Shooting Gallery 
