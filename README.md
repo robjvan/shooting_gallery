@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="/images/arduino.png" style="max-width:200">
+    <img src="/images/arduino.png" style="width:200">
 </p>
 
 # Shooting Gallery 
@@ -70,31 +70,31 @@ Arduino-powered shooting gallery game for 2 players.  Toy guns use a laser emitt
 This was the minimum viable product version.  A simple laser pointer is used to trigger the photocell, which uses a servo to drop the target when a hit is registered.
  
 <p align="center">
- <img src="/images/prototype_test.gif" style="max-width:400">
+ <img src="/images/prototype_test.gif" style="max-width:100%">
 </p>
 <p align="center">
   <i>It works!</i>
 </p> 
 <p align="center">
- <img src="/images/laser_gun_prototype.jpg" style="max-width:400">
+ <img src="/images/laser_gun_prototype.jpg" style="max-width:50%">
 </p>
 <p align="center">
   <i>The "gun" - I've invented the laser pointer</i>
 </p> 
 <p align="center">
- <img src="/images/target_base_prototype.jpg" style="max-width:400" >
+ <img src="/images/target_base_prototype.jpg" style="max-width:50%" >
 </p>
 <p align="center">
   <i>Close-up of the target base</i>
 </p>
 <p align="center">
- <img src="/images/target_base_prototype_fritzing.png" style="max-width:400" >
+ <img src="/images/target_base_prototype_fritzing.png" style="max-width:50%" >
 </p>
 <p align="center">
   <i>Target Fritzing Diagram</i>
 </p>
 <p align="center">
- <img src="/images/gun_prototype_fritzing.png" style="max-width:400" >
+ <img src="/images/gun_prototype_fritzing.png" style="max-width:50%" >
 </p>
 <p align="center">
   <i>"Gun" Fritzing Diagram</i>
